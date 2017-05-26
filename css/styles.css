@@ -13,6 +13,10 @@
   letter-spacing: 1.5px;
 }
 
+.btn {
+  background-color: #f7afd1;
+}
+
 .phone {
   padding-left: 27px;
 }
