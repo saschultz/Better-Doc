@@ -1,4 +1,6 @@
 ### Better doctor
+![screenshot](/img/preview.png)
+
 
 #### Sara Schultz, 05.26.2017
 
