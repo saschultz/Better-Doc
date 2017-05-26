@@ -1,21 +1,21 @@
-### Better Doctor
+# Better Doctor
 ![screenshot](/img/preview.png)
 
 
 #### Sara Schultz, 05.26.2017
 
-#### Description
+## Description
 
 This application uses the BetterDoctor API https://developer.betterdoctor.com/ to allow the user enter symptoms they are experiencing, as well as the state they live in, to locate a physician near them.
 
-#### API Access
+## API Access
 You will need an API key to access the BetterDoctor API, follow these steps first.
 * Visit https://developer.betterdoctor.com/ and click "Get a Free API Key"
 * Fill out the provided form
 * Your API Key should appear on the next page and can also be found under My Account > Applications
 
 
-#### Project Setup/Installation
+## Project Setup/Installation
 
 * Copy the URL to this repository
 * Open terminal and navigate to the desktop
@@ -44,13 +44,13 @@ You will need an API key to access the BetterDoctor API, follow these steps firs
 | User can enter a symptom and the state they are locating a physician in |  "headache", "OR" | "Dr. Skeleton, neurologist facility: Neurology Clinic of Oregon phone: 503.555.1234" |
 | User will be notified if there were no matches | "feverish", "OR" | "there were no matches to this search" |
 
-#### Known Bugs
+## Known Bugs
 While sass is installed, required, and added to tasks in gulpfile.js, it is not running properly.
 
-#### Support/Contact Details
+## Support/Contact Details
 For support or questions contact Sara: saschultz8@gmail.com
 
-#### Technologies Used
+## Technologies Used
 * HTML
 * CSS, Sass, Bootstrap
 * JavaScript, jQuery
