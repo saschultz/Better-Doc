@@ -1,4 +1,4 @@
-# Better Doctor
+# Better Doctor Search Tool
 ![screenshot](/img/preview.png)
 
 
@@ -42,7 +42,7 @@ You will need an API key to access the BetterDoctor API, follow these steps firs
 | -------------------------- | -----------------:| -----------------:|
 | User can enter a symptom and a physician will return| "headache" | "Dr. Skeleton" |
 | User can enter a symptom and the state they are locating a physician in |  "headache", "OR" | "Dr. Skeleton, neurologist facility: Neurology Clinic of Oregon phone: 503.555.1234" |
-| User will be notified if there were no matches | "feverish", "OR" | "there were no matches to this search" |
+| User will be notified if there were no matches | "heartache", "OR" | "there were no matches to this search" |
 
 ## Known Bugs
 While sass is installed, required, and added to tasks in gulpfile.js, it is not running properly.
