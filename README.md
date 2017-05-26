@@ -21,12 +21,7 @@ You will need an API key to access the BetterDoctor API, follow these steps firs
 * Navigate to the user directory in terminal using command cd ~
 * Create .gitignore_global file using command: touch .gitignore_global
 * Open .gitignore_global in text editor of choice and write:
-"  node_modules/
-  .DS_Store
-  bower_components/
-  build/
-  tmp/
-  .env "
+  ![screenshot](/img/gitignore.png)
 * Navigate back into cloned repository
 * Create .env file using command: touch .env
 * In text editor of choice write in .env file:
