@@ -7,7 +7,9 @@ Medical.prototype.getDoctors = function(medicalIssue, state, displayDoctors) {
    .then(function(response) {
     displayDoctors(response);
     console.log(response);
-    console.log(response.data[4].ratings[0].rating);
+    if (response.data.length === 0) {
+      $('.results').append(`<p>there were no matches to this search</p>`)
+    }
   })
   .fail(function(error){
     $('.results').append(error.responseJSON.message);
