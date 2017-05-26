@@ -2,7 +2,7 @@ var Medical = require('./../js/doctor.js').medicalModule;
 
 var displayDoctors = function(response) {
   response.data.forEach(function(doctor) {
-    $('.results').append(`<li>Dr. ${doctor.profile.last_name}, <em>${doctor.specialties[0].uid}</em><br>phone: ${doctor.practices[0].phones[0].number}</li>`);
+    $('.results').append(`<li>Dr. ${doctor.profile.last_name}, <em>${doctor.specialties[0].uid}</li></em><p class="phone">phone: ${doctor.practices[0].phones[0].number}</p>`);
   });
 };
 
